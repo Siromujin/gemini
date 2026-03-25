@@ -71,7 +71,7 @@ system_instruction = gems[selected_gem]
 
 # 3. Load the Gemini Pro model
 model = genai.GenerativeModel(
-    model_name="gemini-3.1-pro", 
+    model_name="gemini-2.5-pro", 
     system_instruction=system_instruction
 )
 
